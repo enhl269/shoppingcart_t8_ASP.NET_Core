@@ -1,0 +1,22 @@
+﻿@model IEnumerable<testingproject3.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Products</h1>
+
+<div class="card-columns">
+@foreach (var item in Model)
+{
+    <div class="card">
+        <div class="card-img" style="background-image: url('@item.ImageUrl');"></div>
+        <div class="card-body">
+            <h5 class="card-title">@item.ProductID</h5>
+        </div>
+        <div class="card-footer">@item.Price</div>
+    </div>
+}
+</div>
+            
+
