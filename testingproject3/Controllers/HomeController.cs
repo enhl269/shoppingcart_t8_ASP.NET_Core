@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using testingproject3.Models;
 
 namespace testingproject3.Controllers
-{
+{//haha
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
