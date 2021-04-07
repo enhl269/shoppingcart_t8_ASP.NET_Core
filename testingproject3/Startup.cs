@@ -35,6 +35,8 @@ namespace testingproject3
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddDbContext<ProductContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ProductContext")));
+            services.AddDbContext<ShoppingCartContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("ShoppingCartContext")));
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

@@ -10,44 +10,22 @@ using testingproject3.Models;
 
 namespace testingproject3.Controllers
 {
-    public class ProductsController : Controller
+    public class ShoppingCartsController : Controller
     {
-        private readonly ProductContext _context;
+        private readonly ShoppingCartContext _context;
 
-        public ProductsController(ProductContext context)
+        public ShoppingCartsController(ShoppingCartContext context)
         {
             _context = context;
         }
 
-        // GET: Products
-        public async Task<IActionResult> Index(string sortOrder, int searchString)
+        // GET: ShoppingCarts
+        public async Task<IActionResult> Index()
         {
-            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewData["CurrentFilter"] = searchString;
-            ViewData["ProductID"] = "ProductID";
-
-            var product = from p in _context.Products
-                           select p;
-
-            if (!String.IsNullOrEmpty(Convert.ToString(searchString)))
-            {
-                product = product.Where(p => Convert.ToString(p.ProductID).Contains(Convert.ToString(searchString))
-                                       || Convert.ToString(p.ID).Contains(Convert.ToString(searchString)));
-            }
-            switch (sortOrder)
-            {
-                case "name_desc":
-                    product = product.OrderByDescending(p => p.ProductID);
-                    break;
-                default:
-                    product = product.OrderBy(p => p.ID);
-                    break;
-            }
-            return View(await product.AsNoTracking().ToListAsync());
-            //return View(await _context.Products.ToListAsync());
+            return View(await _context.ShoppingCarts.ToListAsync());
         }
 
-        // GET: Products/Details/5
+        // GET: ShoppingCarts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -55,39 +33,39 @@ namespace testingproject3.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
+            var shoppingCart = await _context.ShoppingCarts
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (product == null)
+            if (shoppingCart == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(shoppingCart);
         }
 
-        // GET: Products/Create
+        // GET: ShoppingCarts/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Products/Create
+        // POST: ShoppingCarts/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,ProductID,Description,Price,ImageUrl")] Product product)
+        public async Task<IActionResult> Create([Bind("ID,ProductID,Description,Price,ImageUrl")] ShoppingCart shoppingCart)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(product);
+                _context.Add(shoppingCart);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(shoppingCart);
         }
 
-        // GET: Products/Edit/5
+        // GET: ShoppingCarts/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -95,22 +73,22 @@ namespace testingproject3.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
+            var shoppingCart = await _context.ShoppingCarts.FindAsync(id);
+            if (shoppingCart == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(shoppingCart);
         }
 
-        // POST: Products/Edit/5
+        // POST: ShoppingCarts/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,ProductID,Description,Price,ImageUrl")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,ProductID,Description,Price,ImageUrl")] ShoppingCart shoppingCart)
         {
-            if (id != product.ID)
+            if (id != shoppingCart.ID)
             {
                 return NotFound();
             }
@@ -119,12 +97,12 @@ namespace testingproject3.Controllers
             {
                 try
                 {
-                    _context.Update(product);
+                    _context.Update(shoppingCart);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.ID))
+                    if (!ShoppingCartExists(shoppingCart.ID))
                     {
                         return NotFound();
                     }
@@ -135,10 +113,10 @@ namespace testingproject3.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(product);
+            return View(shoppingCart);
         }
 
-        // GET: Products/Delete/5
+        // GET: ShoppingCarts/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -146,30 +124,38 @@ namespace testingproject3.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
+            var shoppingCart = await _context.ShoppingCarts
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (product == null)
+            if (shoppingCart == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            return View(shoppingCart);
         }
 
-        // POST: Products/Delete/5
+        // POST: ShoppingCarts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            _context.Products.Remove(product);
+            var shoppingCart = await _context.ShoppingCarts.FindAsync(id);
+            _context.ShoppingCarts.Remove(shoppingCart);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductExists(int id)
+        private bool ShoppingCartExists(int id)
         {
-            return _context.Products.Any(e => e.ID == id);
+            return _context.ShoppingCarts.Any(e => e.ID == id);
         }
+
+        public IActionResult Adding(ShoppingCart shoppingCartItems)
+        {
+            _context.Add(shoppingCartItems);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }
