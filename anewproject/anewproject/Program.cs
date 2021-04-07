@@ -10,7 +10,7 @@ namespace anewproject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
+            Console.WriteLine("hello zf");
         }
     }
 }
