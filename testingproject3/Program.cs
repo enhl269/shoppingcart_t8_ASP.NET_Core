@@ -46,6 +46,8 @@ namespace testingproject3
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+
+                    //update the comments
                 });
     }
 }
