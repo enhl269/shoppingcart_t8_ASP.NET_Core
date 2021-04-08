@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CAProject1.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    string val = (string)ViewData["ProductID"];
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+</form>
+@*<thead>
+    <tr>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.Id)</a>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+    </tr>
+</thead>*@
+
+
+        <div class="card-columns">
+            @foreach (var item in Model)
+            {
+
+
+                <div class="card">
+                    <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Adding" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="card-img" style="background-image: url('@item.ImageUrl');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Id</h5>
+                            <h5 class="card-title">@item.Description</h5>
+                        </div>
+                        <div class="card-footer" asp-for="Price">@item.Price</div>
+                        <input type="hidden" name="ProductID" value="@item.Id" />
+                        <button type="submit" class="btn btn-outline-success">Add</button>
+                    </form>
+                </div>
+            }
+        </div>
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }
