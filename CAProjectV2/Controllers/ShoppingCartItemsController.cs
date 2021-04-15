@@ -106,7 +106,8 @@ namespace CAProjectV2.Controllers
                 .ToList();
 
             ViewData["Data"] = websiteContext;
-
+            string guestLogin = HttpContext.Session.GetString("isLogin");
+            ViewData["isLogin"] = guestLogin;
             //var product = from p in _context.ShoppingCartItem
             //              select  p.ProductId.Distinct();
             //ViewData["productcount"] = product;

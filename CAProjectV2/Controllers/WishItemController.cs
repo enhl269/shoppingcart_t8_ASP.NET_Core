@@ -108,7 +108,8 @@ namespace CAProjectV2.Controllers
                 .Where(x => x.UserId == currentLogin)
                 .OrderBy(x => x.Product.ProductName)
                 .ToList();
-
+            string guestLogin = HttpContext.Session.GetString("isLogin");
+            ViewData["isLogin"] = guestLogin;
             ViewData["Data"] = websiteContext;
             return View();
         }
