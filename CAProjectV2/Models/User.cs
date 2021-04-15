@@ -24,14 +24,13 @@ namespace CAProjectV2.Models
         [Display(Name = "Last Name")]
         public string LastName { set; get; }
         [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 10)]
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 5)]
         [Display(Name = "Username")]
         public string UserName { set; get; }
         [Required]
         [StringLength(100,ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
         [Display(Name = "Password")]
         [DataType(DataType.Password)]
-        [RegularExpression(@"^(?=.*[a - z])(?=.*[A - Z])(?=.*\d)(?=.*[#$^+=!*()@%&]).{8,}$", ErrorMessage = "Your Password needs at least 1 lower case letter, 1 upper case letter, 1 number, 1 special character, minimum 8 characters.")]
         public string Password { set; get; }
         [Required]
         [Display(Name = "Confirm Password")]
