@@ -74,7 +74,7 @@ namespace CAProjectV2.Data
                 Id = "1005",
                 ProductName = ".NET ML",
                 Description = "Supercharged .NET machine learning libraries.",
-                Price = 1.1m,
+                Price = 299m,
                 ImageUrl = "/images/ml.png",
                 tag = "Course E"
 

@@ -44,7 +44,6 @@
                 @Html.DisplayNameFor(model => model.ImageUrl)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.tag)
             </th>
             <th></th>
         </tr>
@@ -65,9 +64,6 @@
                 </td>
                 <td>
                     <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" height="100" width="100" />
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.tag)
                 </td>
                 <td>
                     <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Adding" method="post">
