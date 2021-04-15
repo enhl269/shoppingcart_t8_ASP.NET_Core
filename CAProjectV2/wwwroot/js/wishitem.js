@@ -1,4 +1,6 @@
 ﻿window.onload = function () {
+    let itemcount = document.getElementById("shoppingcartcount");
+    itemcount.innerText = shoppingcartcount();
     var elemlist = document.getElementsByClassName("wishbutton");
 
     var dataupdate = sendwish().split(" ");
@@ -46,6 +48,22 @@ function wishit(event) {
         urlstring = urlstring + "&details=WishList";
     }
     window.location.href = urlstring;
+
+
+}
+
+function shoppingcartcount() {
+    $.ajax({
+        type: "POST",
+        url: "/ShoppingCartItems/shoppingcartcount",
+        async: false,
+        data: "",
+        encode: true,
+        success: function (data) {
+            result = data.success;
+        }
+    });
+    return result;
 }
 
 
