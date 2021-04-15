@@ -46,7 +46,7 @@ namespace CAProjectV2.Controllers
 
                     _context.SaveChanges();
                 }
-
+                
                 return RedirectToAction("Index", "Products");   // we don't have home page yet
             }
 
