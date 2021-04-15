@@ -1,8 +1,6 @@
 ﻿window.onload = function () {
     let elemList = document.getElementsByClassName("updating");
 
-   
-
     for (let i = 0; i < elemList.length; i++)
         elemList[i].addEventListener("change", changed);
 
