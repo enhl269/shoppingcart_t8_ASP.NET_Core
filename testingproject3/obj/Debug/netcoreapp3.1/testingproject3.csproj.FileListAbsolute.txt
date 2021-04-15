@@ -1,0 +1,702 @@
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.json
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.StaticWebAssets.xml
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.exe
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.deps.json
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.json
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.dev.json
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.pdb
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.pdb
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csprojAssemblyReference.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfoInputs.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfo.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CoreCompileInputs.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.Manifest.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.xml
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\scopedcss\bundle\testingproject3.styles.css
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.input.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.output.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorCoreGenerate.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Create.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Delete.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Details.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Edit.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cache
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cs
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.Views.pdb
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CopyComplete
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.dll
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.pdb
+D:\T8_github\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.genruntimeconfig.cache
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\T8_github\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.StaticWebAssets.xml
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.exe
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.deps.json
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.json
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.dev.json
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.pdb
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.pdb
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csprojAssemblyReference.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfoInputs.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfo.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CoreCompileInputs.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.Manifest.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.xml
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\scopedcss\bundle\testingproject3.styles.css
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.input.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.output.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorCoreGenerate.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Create.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Delete.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Details.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Edit.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Index.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.Views.pdb
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CopyComplete
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.dll
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.pdb
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.genruntimeconfig.cache
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\PurchaseHistories\Index.cshtml.g.cs
+C:\Users\15276\Downloads\新建文件夹 (1)\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\PurchaseHistory\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.json
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.StaticWebAssets.xml
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.exe
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.deps.json
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.json
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.dev.json
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.pdb
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.pdb
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csprojAssemblyReference.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfoInputs.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfo.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CoreCompileInputs.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.Manifest.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.xml
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\scopedcss\bundle\testingproject3.styles.css
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.input.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.output.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorCoreGenerate.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\PurchaseHistories\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\PurchaseHistory\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Create.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Delete.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Details.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Edit.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Index.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cache
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cs
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.Views.pdb
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CopyComplete
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.dll
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.pdb
+D:\T8_github\新建文件夹\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.genruntimeconfig.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\appsettings.json
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.StaticWebAssets.xml
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.exe
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.deps.json
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.json
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.runtimeconfig.dev.json
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.pdb
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\testingproject3.Views.pdb
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csprojAssemblyReference.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfoInputs.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.AssemblyInfo.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CoreCompileInputs.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.MvcApplicationPartsAssemblyInfo.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorAssemblyInfo.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.Manifest.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\staticwebassets\testingproject3.StaticWebAssets.xml
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\scopedcss\bundle\testingproject3.styles.css
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.input.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.TagHelpers.output.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorCoreGenerate.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\PurchaseHistories\Index.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\PurchaseHistory\Index.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Create.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Delete.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Details.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Edit.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCarts\Index.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cache
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.RazorTargetAssemblyInfo.cs
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.Views.pdb
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.csproj.CopyComplete
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.dll
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.pdb
+D:\T8_github\大哥改完的\新建文件夹\testingproject3\obj\Debug\netcoreapp3.1\testingproject3.genruntimeconfig.cache
