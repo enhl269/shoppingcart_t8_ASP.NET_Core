@@ -36,14 +36,54 @@ namespace CAProjectV2.Controllers
             {
                 items.UserId = Request.Cookies["GuestLogin"];
             }
-            
+
             await _context.AddAsync(items);
             await _context.SaveChangesAsync();
+
+            var _exists = _context.WishList
+                .Where(x => x.UserId == items.UserId
+                && x.ProductId == items.ProductId)
+                .FirstOrDefault();
+
+            if (_exists != null)
+                _context.WishList.Remove(_exists);
+
+            await _context.SaveChangesAsync();
+
             return LocalRedirect("/Products/Index");
         }
 
+        public async Task<IActionResult> Addinginwishlist(ShoppingCartItem items)
+        {
+            items.Id = IdGenerator.ID();
+            items.ShoppingCartId = IdGenerator.ID();
+            items.ShoppingCartItemEachProductId = items.Id.Clone().ToString() + items.ShoppingCartId.Clone().ToString();
+            items.Quantity = 1;
+            if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
+            {
+                items.UserId = HttpContext.Session.GetString("Userid");
+            }
+            else
+            {
+                items.UserId = Request.Cookies["GuestLogin"];
+            }
 
-        
+            await _context.AddAsync(items);
+            await _context.SaveChangesAsync();
+
+            var _exists = _context.WishList
+                .Where(x => x.UserId == items.UserId
+                && x.ProductId == items.ProductId)
+                .FirstOrDefault();
+
+            if (_exists != null)
+                _context.WishList.Remove(_exists);
+
+            await _context.SaveChangesAsync();
+
+            return LocalRedirect("/WishItem/WishList");
+        }
+
         [HttpPost]
         public async Task<IActionResult> Updating(ShoppingCartItem updatedQty)
         {

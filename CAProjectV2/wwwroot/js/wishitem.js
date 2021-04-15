@@ -3,7 +3,7 @@
     if (itemcount != null) {
         itemcount.innerText = shoppingcartcount();
     }
-    
+
     var elemlist = document.getElementsByClassName("wishbutton");
 
     var dataupdate = sendwish().split(" ");
