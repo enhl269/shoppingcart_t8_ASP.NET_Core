@@ -4,6 +4,9 @@
 {
     <script src="/js/wishitem.js"></script>
 
+    //add js file 
+    <script src="/js/ShoppingcartCount.js"></script>
+
 }
 
 @{
@@ -13,8 +16,11 @@
 }
 
 <h1>Index</h1>
-
-
+// add shopping cart items in count
+<div>
+    <span>shopping cart items:</span>
+    <a id="shoppingcartcount"></a>
+</div>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
