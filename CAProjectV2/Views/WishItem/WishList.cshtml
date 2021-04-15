@@ -1,0 +1,55 @@
+﻿@model IEnumerable<CAProjectV2.Models.WishList>
+
+@{
+    ViewData["Title"] = "WishList";
+    List<WishList> items = (List<WishList>)ViewData["Data"];
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@section Scripts
+{
+    <script src="/js/wishitem.js"></script>
+
+}
+<h1>Index</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Price)
+            </th>
+            <th>wishlist</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in items)
+        {
+            <tr>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
+                </td>
+                <td>
+                    <label class="idOfProduct">@Html.DisplayFor(modelItem => item.Product.ProductName)</label>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Price)
+                </td>
+                <td>
+                    <button class="wishbutton" type="submit" value=@item.Product.Id>delete from wishlist</button>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+

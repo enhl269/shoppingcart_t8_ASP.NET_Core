@@ -5,7 +5,7 @@
     for (let i = 0; i < elemlist.length; i++) {
         for (var k = 0; k < dataupdate.length; k++) {
             if (dataupdate[k] == elemlist[i].value && dataupdate[k] != "")
-                elemlist[i].innerHTML = "added to wishlist";
+                elemlist[i].innerHTML = "delete from wishlist";
         }
     }
 
@@ -41,6 +41,9 @@ function wishit(event) {
     var details = window.location.toString();
     if (details.indexOf("details") > 0) {
         urlstring = urlstring + "&details=" + event.currentTarget.value;
+    }
+    if (details.indexOf("WishList") > 0) {
+        urlstring = urlstring + "&details=WishList";
     }
     window.location.href = urlstring;
 }

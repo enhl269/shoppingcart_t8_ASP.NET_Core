@@ -16,7 +16,7 @@ namespace CAProjectV2.Models
         public string UserId { get; set; }
         public string ProductId { get; set; }
 
-        public virtual ICollection<Product> Product { get; set; }
+        public virtual Product Product { get; set; }
         public virtual ICollection<User> User { get; set; }
 
 

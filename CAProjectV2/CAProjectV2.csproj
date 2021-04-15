@@ -10,7 +10,7 @@
     <None Include="Views\LogOut\Index.cshtml" />
     <None Include="Views\Register\Index.cshtml" />
     <None Include="Views\Register\Success.cshtml" />
-    <None Include="Views\WishItem\UserWishList.cshtml" />
+    <None Include="Views\WishItem\WishList.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

@@ -47,12 +47,17 @@ namespace CAProjectV2.Controllers
                 _context.WishList.Remove(_exists);
             }
             await _context.SaveChangesAsync();
-            if (details != null)
+            string redirectionroute = "/Products/Index";
+            if (details == "details")
             {
-                string redirectionroute = "/Products/details/" + details;
-                return LocalRedirect(redirectionroute);
+                redirectionroute = "/Products/details/" + details;
             }
-            return LocalRedirect("/Products/Index");
+            else if (details == "WishList")
+            {
+                redirectionroute = "/WishItem/WishList/";
+            }
+
+            return LocalRedirect(redirectionroute);
 
         }
 
@@ -83,6 +88,30 @@ namespace CAProjectV2.Controllers
             string rs = returnstring.Trim(' ');
             return Json(new { success = rs });
         }
+
+
+
+        public IActionResult WishList()
+        {
+            string currentLogin;
+            if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
+            {
+                currentLogin = HttpContext.Session.GetString("Userid");
+            }
+            else
+            {
+                currentLogin = Request.Cookies["GuestLogin"];
+            }
+
+            var websiteContext = _context.WishList.Include(w => w.Product)
+                .Where(x => x.UserId == currentLogin)
+                .OrderBy(x => x.Product.ProductName)
+                .ToList();
+
+            ViewData["Data"] = websiteContext;
+            return View();
+        }
+
     }
 }
 
