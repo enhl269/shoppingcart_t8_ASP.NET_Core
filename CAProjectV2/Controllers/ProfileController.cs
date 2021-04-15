@@ -29,6 +29,8 @@ namespace CAProjectV2.Controllers
                 var id = HttpContext.Session.GetString("Userid");
                 User user = _context.User.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
                 ProfileViewModel pf = new ProfileViewModel(user.UserImageUrl, user.FirstName, user.LastName, user.UserName, user.Email, user.PhoneNumber, "", "");
+                string guestLogin = HttpContext.Session.GetString("isLogin");
+                ViewData["isLogin"] = guestLogin;
                 return View(pf);
             }
             else
