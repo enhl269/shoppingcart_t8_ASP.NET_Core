@@ -32,20 +32,20 @@ namespace CAProjectV2.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1001",
-                ProductName = "Course A",
-                Description = "This is Course A",
-                Price = 1.1m,
-                ImageUrl = "/images/A.png",
+                ProductName = ".NET Charts",
+                Description = "Brings powerful charting capabilities to your .NET applications.",
+                Price = 99m,
+                ImageUrl = "/images/chart.png",
                 tag = "Course A"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1002",
-                ProductName = "Course B",
-                Description = "This is Course B",
-                Price = 1.1m,
-                ImageUrl = "/images/B.png",
+                ProductName = ".NET PayPal",
+                Description = "Integrate your .NET apps with PayPal the easy way!",
+                Price = 69m,
+                ImageUrl = "/images/paypal.png",
                 tag = "Course B"
 
             });
