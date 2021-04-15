@@ -1,0 +1,16 @@
+﻿@model IEnumerable<CAProjectV2.Models.WishList>
+@{
+    ViewData["Title"] = "UserWishList";
+}
+
+
+<tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+        </tr>
+    }
+</tbody>

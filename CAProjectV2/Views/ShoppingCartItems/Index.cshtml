@@ -1,0 +1,105 @@
+﻿@model IEnumerable<CAProjectV2.Models.ShoppingCartItem>
+
+@{
+    ViewData["Title"] = "Index";
+    List<ShoppingCartItem> cart = (List<ShoppingCartItem>)ViewData["Data"];
+    //List<ShoppingCartItem> cartdistinct = (List<ShoppingCartItem>)ViewData["productcount"];
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    //Prevent duplicate items in shopping cart
+    List<ShoppingCartItem> cartNoDup = new List<ShoppingCartItem>();
+
+    foreach (var item in cart)
+    {
+        //if item is in cartNoDup, don't add
+        ShoppingCartItem temp = cartNoDup.FirstOrDefault(m => m.ProductId == item.ProductId);
+
+        if (temp == null)
+        {
+            cartNoDup.Add(item);
+        }
+
+
+    }
+
+    decimal total = 0m;
+    foreach (var item in cart)
+    {
+        total += item.Product.Price;
+    }
+
+
+}
+
+@section Scripts
+{
+    <script src="~/js/DetectValue.js"></script>
+}
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in cartNoDup)
+        {
+            <tr>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
+                </td>
+                <td>
+                    
+                    <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Updating" method="post">
+                        <input type="hidden" name="Id" value=@item.Id />
+                        <input type="hidden" name=UserId value=@item.UserId />
+                        <input type="hidden" name="ProductId" value=@item.ProductId />
+                        <button type="submit" name="Quantity" value="-1">-</button>
+                        <input type="number" value="@cart.Count(x => x.ProductId == item.ProductId)" />
+                        <button type="submit" name="Quantity" value="1">+</button>
+                    </form>
+                </td>
+                <td>
+                    <label class="idOfProduct">@Html.DisplayFor(modelItem => item.Product.ProductName)</label>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Price)
+                </td>
+                <td>
+                    <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Delete" method="post">
+                        <input type="hidden" name=UserId value=@item.UserId />
+                        <input type="hidden" name="ProductId" value=@item.ProductId />
+                        <button type="submit" >Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td>Total</td>
+            <td>@total</td>
+        </tr>
+    </tbody>
+
+</table>
+<form asp-controller="OrderDetails" asp-action="Checkout" method="post">
+    <input type="hidden" asp-route-id="@total"/>
+    <button type="submit">Check out</button>
+</form>
