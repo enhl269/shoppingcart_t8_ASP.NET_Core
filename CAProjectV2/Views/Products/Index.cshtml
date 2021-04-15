@@ -4,6 +4,9 @@
 {
     <script src="/js/wishitem.js"></script>
 
+    //add js file 
+    <script src="/js/ShoppingcartCount.js"></script>
+
 }
 
 @{
@@ -13,8 +16,11 @@
 }
 
 <h1>Index</h1>
-
-
+// add shopping cart items in count
+<div>
+    <span>shopping cart items:</span>
+    <a id="shoppingcartcount"></a>
+</div>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -44,7 +50,6 @@
                 @Html.DisplayNameFor(model => model.ImageUrl)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.tag)
             </th>
             <th></th>
         </tr>
@@ -65,9 +70,6 @@
                 </td>
                 <td>
                     <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" height="100" width="100" />
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.tag)
                 </td>
                 <td>
                     <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Adding" method="post">

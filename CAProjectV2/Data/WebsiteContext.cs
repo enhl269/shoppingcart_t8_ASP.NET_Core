@@ -32,90 +32,90 @@ namespace CAProjectV2.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1001",
-                ProductName = "Course A",
-                Description = "This is Course A",
-                Price = 1.1m,
-                ImageUrl = "/images/A.png",
+                ProductName = ".NET Charts",
+                Description = "Brings powerful charting capabilities to your .NET applications.",
+                Price = 99m,
+                ImageUrl = "/images/chart.png",
                 tag = "Course A"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1002",
-                ProductName = "Course B",
-                Description = "This is Course B",
-                Price = 1.1m,
-                ImageUrl = "/images/B.png",
+                ProductName = ".NET PayPal",
+                Description = "Integrate your .NET apps with PayPal the easy way!",
+                Price = 69m,
+                ImageUrl = "/images/paypal.png",
                 tag = "Course B"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1003",
-                ProductName = "Course C",
-                Description = "This is Course C",
-                Price = 1.1m,
-                ImageUrl = "/images/C.png",
+                ProductName = ".NET Numerics",
+                Description = "Powerful numerical methods for your .NET aimulations.",
+                Price = 199m,
+                ImageUrl = "/images/numerics.png",
                 tag = "Course C"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1004",
-                ProductName = "Course D",
-                Description = "This is Course D",
-                Price = 1.1m,
-                ImageUrl = "/images/D.jpg",
+                ProductName = ".NET Monitoring",
+                Description = "Add user metrics and monitor performance of your .NET apps",
+                Price = 219m,
+                ImageUrl = "/images/monitoring.png",
                 tag = "Course D"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1005",
-                ProductName = "Course E",
-                Description = "This is Course E",
-                Price = 1.1m,
-                ImageUrl = "/images/E.png",
+                ProductName = ".NET ML",
+                Description = "Supercharged .NET machine learning libraries.",
+                Price = 299m,
+                ImageUrl = "/images/ml.png",
                 tag = "Course E"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1006",
-                ProductName = "Course F",
-                Description = "This is Course F",
-                Price = 1.1m,
-                ImageUrl = "/images/F.jpg",
+                ProductName = ".NET Security ",
+                Description = "Protect and secure your .NET apps",
+                Price = 399m,
+                ImageUrl = "/images/security.png",
                 tag = "Course F"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1007",
-                ProductName = "Course G",
-                Description = "This is Course G",
-                Price = 1.1m,
-                ImageUrl = "/images/G.jpg",
+                ProductName = ".NET Location",
+                Description = "Add accurate location awareness to your .NET apps",
+                Price = 249m,
+                ImageUrl = "/images/location.png",
                 tag = "Course G"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1008",
-                ProductName = "Course H",
-                Description = "This is Course H",
-                Price = 1.1m,
-                ImageUrl = "/images/H.jpg",
+                ProductName = ".NET Logger",
+                Description = "Logs and aggregates events easily in your .NET apps.",
+                Price = 49m,
+                ImageUrl = "/images/logger.png",
                 tag = "Course H"
 
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = "1009",
-                ProductName = "Course I",
-                Description = "This is Course I",
-                Price = 1.1m,
-                ImageUrl = "/images/I.png",
+                ProductName = ".NET Analytics",
+                Description = "Performs data mining and analytics easily in .NET.",
+                Price = 299m,
+                ImageUrl = "/images/analytics.png",
                 tag = "Course I"
 
             });

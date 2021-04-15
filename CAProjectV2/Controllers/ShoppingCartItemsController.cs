@@ -12,7 +12,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Http;
 
 namespace CAProjectV2.Controllers
-{
+{//testing 
     public class ShoppingCartItemsController : Controller
     {
         private readonly WebsiteContext _context;
@@ -231,6 +231,31 @@ namespace CAProjectV2.Controllers
         private bool ShoppingCartItemExists(string id)
         {
             return _context.ShoppingCartItem.Any(e => e.Id == id);
+        }
+
+        //adding action to count the item in shopping cart
+        [HttpPost]
+        public IActionResult shoppingcartcount()
+        {
+
+            string currentLogin;
+            if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
+            {
+                currentLogin = HttpContext.Session.GetString("Userid");
+            }
+            else
+            {
+                currentLogin = Request.Cookies["GuestLogin"];
+            }
+
+            //var websiteContext = _context.ShoppingCartItem.Include(s => s.Product).ToList();
+            var websiteContext = _context.ShoppingCartItem.Include(s => s.Product)
+                .Where(x => x.UserId == currentLogin)
+                .OrderBy(x => x.Product.ProductName)
+                .ToList();
+            var count = websiteContext.Count();
+
+            return Json(new { success = count });
         }
     }
 }
