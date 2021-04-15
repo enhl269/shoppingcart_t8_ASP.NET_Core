@@ -34,6 +34,9 @@
                 @:<td>
                       <img src="@Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ImageUrl).FirstOrDefault()" height="100" width="100" />
                 @:</td>
+                   <td>
+                       @Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Count()
+                  </td>
                 @:<td>
                     @:<select>
                         @foreach (var x in Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date))
