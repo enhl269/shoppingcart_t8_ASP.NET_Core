@@ -12,15 +12,13 @@
 
 }
 
-<h1>Index</h1>
-// add shopping cart items in count
+<h3>Library Gallery</h3>
+<!--add shopping cart items in count-->
 <div>
     <span>shopping cart items:</span>
     <a id="shoppingcartcount"></a>
 </div>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 
 <form asp-action="Index" method="get">
     <div class="form-actions no-color">
@@ -71,11 +69,11 @@
                 <td>
                     <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Adding" method="post">
                         <input type="hidden" name="ProductId" value=@item.Id />
-                        <button type="submit">Add</button>
+                        <button type="submit">Add to Cart</button>
                     </form>
                 </td>
                 <td>
-                    <button class="wishbutton" type="submit" value=@item.Id>Add to WishList</button>
+                    <button class="wishbutton" type="submit" value=@item.Id>Add to Wish List</button>
                 </td>
             </tr>
         }
