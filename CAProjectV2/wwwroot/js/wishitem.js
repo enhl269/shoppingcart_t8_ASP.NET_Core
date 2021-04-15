@@ -1,6 +1,9 @@
 ﻿window.onload = function () {
     let itemcount = document.getElementById("shoppingcartcount");
-    itemcount.innerText = shoppingcartcount();
+    if (itemcount != null) {
+        itemcount.innerText = shoppingcartcount();
+    }
+    
     var elemlist = document.getElementsByClassName("wishbutton");
 
     var dataupdate = sendwish().split(" ");
