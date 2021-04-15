@@ -45,6 +45,10 @@
                 </td>
                 <td>
                     <button class="wishbutton" type="submit" value=@item.Product.Id>Delete from Wish List</button>
+                    <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Adding" method="post">
+                        <input type="hidden" name="ProductId" value=@item.Product.Id />
+                        <button type="submit">Add to Cart</button>
+                    </form>
                 </td>
             </tr>
         }
