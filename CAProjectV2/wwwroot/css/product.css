@@ -12,7 +12,7 @@
     box-shadow: none;
     margin-top: 24px;
     width: 250px;
-    height: 420px;
+    height: 426px;
     margin-bottom: 40px;
     box-shadow: rgb(0, 0, 0, .2) 0px 0px 25px 2px;
 }
@@ -36,6 +36,7 @@
     text-align: center !important;
     background-color: white;
     border-radius: 0 0 4px 4px;
+    height:134px;
 }
 
 /*product list*/
@@ -208,6 +209,7 @@
     color: #fc5959;
     font-size: 15px;
     padding-bottom: 12px;
+    padding-top: 2px;
 }
 
 .pro-img-details {
@@ -253,6 +255,7 @@
     width: 250px;
     padding-left: 12px;
     padding-right: 12px;
+    margin-bottom: 2px;
 }
 .quantity {
     width: 120px;

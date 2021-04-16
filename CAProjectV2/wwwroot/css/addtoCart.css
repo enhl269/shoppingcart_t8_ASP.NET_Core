@@ -123,16 +123,22 @@ label {
         font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
     }
 
-    .product .product-details .product-description {
+    .product .product-details  {
         margin: 5px 20px 5px 0;
         line-height: 1.4em;
     }
+.product-description_long {
+    margin: 5px 0 5px 0;
+    line-height: 1.4em;
+    width: 300px;
+    color: GrayText;
+}
 
-    .product .product-quantity input {
-        width: 25px;
-        margin-left:1px;
-        text-align:center;
-    }
+.product .product-quantity input {
+    width: 25px;
+    margin-left: 1px;
+    text-align: center;
+}
 
 .remove-product {
     border: none;
