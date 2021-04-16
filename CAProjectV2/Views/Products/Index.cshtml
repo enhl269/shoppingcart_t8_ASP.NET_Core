@@ -16,24 +16,32 @@
 {
     <script src="/js/wishitem.js"></script>
 
+    //add js file 
+    <script src="/js/ShoppingcartCount.js"></script>
+
 }
 
 
 
-@*<h1>Index</h1>
 
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>*@
 
 
 <div id="wrapper">
 
     <div class="row product-list">
+
+
+// add shopping cart items in count
+<div>
+    <span>shopping cart items:</span>
+    <a id="shoppingcartcount"></a>
+</div>
+
+
+
+
         @foreach (var item in Model)
-
         {
-
             <div class="col-md-4">
                 <section class="panel">
                     <div class="pro-img-box">
@@ -68,8 +76,7 @@
                     </div>
                 </section>
             </div>
-
-        }
+      }
     </div>
 
     <div class="container">

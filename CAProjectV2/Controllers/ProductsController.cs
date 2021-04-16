@@ -15,18 +15,6 @@ namespace CAProjectV2.Controllers
     public class ProductsController : Controller
     {
 
-        /* put all your methods inside this condition
-
-
-                      if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
-                        {
-
-
-                        } else {
-                          return RedirectToAction("Index", "LogIn");
-                        } 
-
-                 */
 
         private readonly WebsiteContext _context;
 
@@ -77,7 +65,7 @@ namespace CAProjectV2.Controllers
             if (!String.IsNullOrEmpty(Convert.ToString(searchString)))
             {
                 product = product.Where(p => Convert.ToString(p.ProductName).Contains(Convert.ToString(searchString))
-                                       || Convert.ToString(p.ProductName).Contains(Convert.ToString(searchString)));
+                                       || Convert.ToString(p.Description).Contains(Convert.ToString(searchString)));
             }
             switch (sortOrder)
             {
