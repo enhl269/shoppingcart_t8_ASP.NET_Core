@@ -76,6 +76,7 @@
 
 .product-list img {
     width: 250px;
+    height : 290px;
     border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
 
@@ -292,9 +293,9 @@
 
 
 .book-item-size-related {
-    width: 145px;
-    height: 200px;
-    border-radius:10px 10px 0 0;
+    width: 100px;
+    height: 110px;
+    border-radius: 10px 10px 0 0;
 }
 
 .book-item__title-size-related {
