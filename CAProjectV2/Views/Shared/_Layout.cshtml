@@ -23,6 +23,7 @@
 
 
 </head>
+
 <body>
 
 
@@ -74,38 +75,43 @@
                 @if (!String.IsNullOrEmpty(Context.Session.GetString("Userid")))
                 {
 
-                <a asp-area="" asp-controller="Profile" asp-action="RenderProfile" class="align-self-center ml-auto">
+                    <a asp-area="" asp-controller="Profile" asp-action="RenderProfile" class="align-self-center ml-auto">
 
-                    <div class="row">
+                        <div class="row">
 
-                        <img class="header-row__profile rounded-circle" src="@Url.Content("~/images/" + user.UserImageUrl)"/>
-                        <div class="header-row__profile-content">
-                            <div class="header-row__profile-name">@user.FirstName @user.LastName</div>
-                            <div class="header-row__profile-email">@user.Email</div>
+                            <img class="header-row__profile rounded-circle" src="@Url.Content("~/images/" + user.UserImageUrl)" />
+                            <div class="header-row__profile-content">
+                                <div class="header-row__profile-name">@user.FirstName @user.LastName</div>
+                                <div class="header-row__profile-email">@user.Email</div>
+                            </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
                 }
                 else
-                {
-            <a href="/Login/Index" class="default">Login</a>
+                {   <div class="align-self-center ml-auto">
+    <a href="/Login/Index" class="default">Login</a>
+</div>
                 }
             </div>
             <div class="row-header__main">
                 <ul class="header-row__menu align-self-center col-12">
                     <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a></li>
-                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="ShoppingCartItems" asp-action="Index">My Carts</a></li>
+                    <li class="header-row__menu-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ShoppingCartItems" asp-action="Index">
+                            My Carts
+                            (<span style="color : palevioletred" id="shoppingcartcount"></span>)
+                        </a>
+                    </li>
                     <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="WishItem" asp-action="WishList">My Wishlist</a></li>
-                    <li class="header-row__menu-item"> <a class="nav-link text-dark" asp-area="" asp-controller="OrderDetails" asp-action="Index">My Purchase History</a></li>
                     @if (!String.IsNullOrEmpty(Context.Session.GetString("Userid")))
                     {
+                        <li class="header-row__menu-item"> <a class="nav-link text-dark" asp-area="" asp-controller="OrderDetails" asp-action="Index">My Purchase History</a></li>
                         <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="LogOut" asp-action="Index">Logout</a></li>
 
                     }
                     else
                     {
-                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Profile" asp-action="RenderProfile">Profile</a> </li>
                         <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="LogIn" asp-action="Index">Login</a></li>
                         <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Register" asp-action="Index">Register</a></li>
 
@@ -132,6 +138,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/wishitem.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

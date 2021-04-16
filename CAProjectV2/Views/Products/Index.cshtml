@@ -16,9 +16,6 @@
 {
     <script src="/js/wishitem.js"></script>
 
-    //add js file 
-    <script src="/js/ShoppingcartCount.js"></script>
-
 }
 
 
@@ -29,13 +26,6 @@
 <div id="wrapper">
 
     <div class="row product-list">
-
-
-// add shopping cart items in count
-<div>
-    <span>shopping cart items:</span>
-    <a id="shoppingcartcount"></a>
-</div>
 
 
 
@@ -49,14 +39,14 @@
 
                         <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Adding" method="post">
                             @*@if (SignInManager.IsSignedIn(User))
-            {
-                <input type="hidden" name="UserId" value="@User.Identity.Name" />
+                                {
+                                    <input type="hidden" name="UserId" value="@User.Identity.Name" />
 
-            }*@
+                                }*@
                             <input type="hidden" name="ProductId" value="@item.Id" />
 
 
-                            <button  type="submit" class="adtocart" style="outline : none">
+                            <button type="submit" class="adtocart" style="outline : none">
                                 <i class="fa fa-shopping-cart"></i>
                             </button>
 
@@ -76,7 +66,7 @@
                     </div>
                 </section>
             </div>
-      }
+        }
     </div>
 
     <div class="container">

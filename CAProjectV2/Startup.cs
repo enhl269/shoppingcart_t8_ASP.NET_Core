@@ -67,7 +67,7 @@ namespace CAProjectV2
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Products}/{action=FirstPage}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
 
             });
