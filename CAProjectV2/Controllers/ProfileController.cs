@@ -24,11 +24,14 @@ namespace CAProjectV2.Controllers
 
         public IActionResult RenderProfile()
         {
+          
+
             if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin"))){    //checking session is null or not which means checking user log in or out
 
                 var id = HttpContext.Session.GetString("Userid");
                 User user = _context.User.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
                 ProfileViewModel pf = new ProfileViewModel(user.UserImageUrl, user.FirstName, user.LastName, user.UserName, user.Email, user.PhoneNumber, "", "");
+                ViewData["profile"] = pf;
                 return View(pf);
             }
             else
