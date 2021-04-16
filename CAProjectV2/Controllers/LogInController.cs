@@ -14,6 +14,8 @@ namespace CAProjectV2.Controllers
     {
         public IActionResult Index()
         {
+            string loginUser = HttpContext.Session.GetString("Userid");
+
             return View();
         }
 
@@ -33,21 +35,32 @@ namespace CAProjectV2.Controllers
             {
                 HttpContext.Session.SetString("Userid", result.Id);
                 HttpContext.Session.SetString("isLogin", result.UserName);
-                           
+           
                 string guestLogin = Request.Cookies["GuestLogin"];
+                
+                
+               
+
                 var items = _context.ShoppingCartItem.Where(x => x.UserId == guestLogin);
+              
                 if (items != null)
                 {
                     string userLogin = HttpContext.Session.GetString("Userid");
                     foreach (var item in items)
                     {
                         item.UserId = userLogin;
+                           
                     }
-
+                    
+                    
                     _context.SaveChanges();
+
+
                 }
-                
-                return RedirectToAction("Index", "Products");   // we don't have home page yet
+               
+                return RedirectToAction("Index", "Home");   // we don't have home page yet
+         
+
             }
 
                 return Redirect("Index");  // UI : need to create error message/page that user name or pwd is incorrect

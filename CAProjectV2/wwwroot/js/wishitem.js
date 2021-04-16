@@ -1,4 +1,6 @@
-﻿window.onload = function () {
+
+window.onload = function () {
+
     let itemcount = document.getElementById("shoppingcartcount");
     if (itemcount != null) {
         itemcount.innerText = shoppingcartcount();
@@ -10,8 +12,7 @@
     for (let i = 0; i < elemlist.length; i++) {
         for (var k = 0; k < dataupdate.length; k++) {
             if (dataupdate[k] == elemlist[i].value && dataupdate[k] != "")
-                elemlist[i].innerHTML = "delete from wishlist";
-        }
+                $(elemlist[i]).toggleClass("wishbutton_click");         }
     }
 
     for (let j = 0; j < elemlist.length; j++) {
@@ -53,6 +54,7 @@ function wishit(event) {
     window.location.href = urlstring;
 
 
+
 }
 
 function shoppingcartcount() {
@@ -68,7 +70,3 @@ function shoppingcartcount() {
     });
     return result;
 }
-
-
-
-

@@ -45,6 +45,16 @@ namespace CAProjectV2.Controllers
 
         public async Task<IActionResult> Index(string sortOrder, string searchString)
         {
+            if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
+            {    //checking session is null or not which means checking user log in or out
+
+                var id = HttpContext.Session.GetString("Userid");
+                User user = _context.User.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
+                ProfileViewModel profile = new ProfileViewModel(user.UserImageUrl, user.FirstName, user.LastName, user.UserName, user.Email, user.PhoneNumber, "", "");
+                ViewData["profile"] = profile;
+
+            }
+
             ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewData["CurrentFilter"] = searchString;
             ViewData["ProductID"] = "ProductName";
