@@ -107,6 +107,8 @@ namespace CAProjectV2.Controllers
 
                 }
                 ViewData["UniqueList"] = UniqueList;
+                string guestLogin = HttpContext.Session.GetString("isLogin");
+                ViewData["isLogin"] = guestLogin;
 
                 return View(await websiteContext.ToListAsync());
             }

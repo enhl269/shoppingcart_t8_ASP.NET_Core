@@ -76,6 +76,9 @@ namespace CAProjectV2.Controllers
                     product = product.OrderBy(p => p.ProductName);
                     break;
             }
+            string guestLogin = HttpContext.Session.GetString("isLogin");
+            ViewData["isLogin"] = guestLogin;
+
             return View(await product.AsNoTracking().ToListAsync());
         }
 

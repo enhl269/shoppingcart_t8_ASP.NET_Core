@@ -55,9 +55,12 @@ namespace CAProjectV2.Controllers
                     
                     _context.SaveChanges();
 
+
                 }
                
                 return RedirectToAction("Index", "Home");   // we don't have home page yet
+         
+
             }
 
                 return Redirect("Index");  // UI : need to create error message/page that user name or pwd is incorrect

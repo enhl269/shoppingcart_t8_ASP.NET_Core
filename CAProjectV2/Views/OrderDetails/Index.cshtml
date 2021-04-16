@@ -17,9 +17,6 @@
 }
 <h1>Purchase History</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
 
 
@@ -49,6 +46,12 @@
                         }
                     @:</select>
                 @:</td>
+
+
+                @:<td>
+                    <a href="@Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ImageUrl).FirstOrDefault()" download>Download</a>
+                @:</td>
+
             @:</tr>
 
 

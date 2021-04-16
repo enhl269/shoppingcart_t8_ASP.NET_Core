@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace CAProjectV2.Controllers
 {
+    //test update and merge
     public class WishItemController : Controller
     {
         private readonly WebsiteContext _context;
@@ -117,7 +118,8 @@ namespace CAProjectV2.Controllers
                 .Where(x => x.UserId == currentLogin)
                 .OrderBy(x => x.Product.ProductName)
                 .ToList();
-
+            string guestLogin = HttpContext.Session.GetString("isLogin");
+            ViewData["isLogin"] = guestLogin;
             ViewData["Data"] = websiteContext;
             return View();
         }

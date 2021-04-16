@@ -24,24 +24,39 @@ namespace CAProjectV2.Models
 
         
         public string UserImageUrl { get; set; }
-
+        [Required]
+        [Display(Name = "First Name")]
         public string FirstName { set; get; }
-
+        [Required]
+        [Display(Name = "Last Name")]
         public string LastName { set; get; }
 
         [Key]
+        [Required]
+        [Display(Name = "Username")]
         public string UserName { set; get; }
-
+        [Required]
+        [Display(Name = "Password")]
+        [DataType(DataType.Password)]
         public string Password { set; get; }
-
+        [Required]
+        [Display(Name = "Confirm Password")]
+        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { set; get; }
-
+        [Required]
+        [EmailAddress]
+        [Display(Name = "Email")]
         public string Email { set; get; }
 
         public string PhoneNumber { set; get; }
 
+        [Required]
+        [Display(Name = "New Password")]
+        [DataType(DataType.Password)]
         public string NewPassword { set; get; }
-
+        [Required]
+        [Display(Name = "Current Password")]
+        [Compare("Password", ErrorMessage = "The password entered does not match the current password.")]
         public string OldPassword { set; get; }
     }
 }

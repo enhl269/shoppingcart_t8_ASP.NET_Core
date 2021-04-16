@@ -17,7 +17,11 @@ namespace CAProjectV2.Models
         public LogInViewModel() : this("", "") { }
 
         [Key]
-        public string UserName { get; set; } 
+        [Required]
+        [Display(Name = "Username")]
+        public string UserName { get; set; }
+        [Required]
+        [Display(Name = "Password")]
         public string Password { get; set; }
     }
 }

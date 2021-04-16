@@ -1,4 +1,6 @@
-﻿﻿window.onload = function () {
+
+window.onload = function () {
+
     let itemcount = document.getElementById("shoppingcartcount");
     if (itemcount != null) {
         itemcount.innerText = shoppingcartcount();
@@ -50,6 +52,7 @@ function wishit(event) {
         urlstring = urlstring + "&details=WishList";
     }
     window.location.href = urlstring;
+
 
 
 }

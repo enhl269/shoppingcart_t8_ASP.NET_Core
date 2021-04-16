@@ -44,7 +44,11 @@
                     @Html.DisplayFor(modelItem => item.Product.Price)
                 </td>
                 <td>
-                    <button class="wishbutton" type="submit" value=@item.Product.Id>delete from wishlist</button>
+                    <button class="wishbutton" type="submit" value=@item.Product.Id>Delete from Wish List</button>
+                    <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
+                        <input type="hidden" name="ProductId" value=@item.Product.Id />
+                        <button type="submit">Add to Cart</button>
+                    </form>
                 </td>
             </tr>
         }

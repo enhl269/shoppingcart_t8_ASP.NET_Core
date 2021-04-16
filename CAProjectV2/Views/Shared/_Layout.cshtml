@@ -9,7 +9,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CAProjectV2</title>
+
+  
+
+    <title>@ViewData["Title"] - Shopping Cart Application</title>
     <link rel="stylesheet" href="~/css/site.css" />
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -27,7 +30,6 @@
 <body>
 
 
-
     <div class="container-fluid zero-padding">
 
         <div class="header-row">
@@ -39,10 +41,10 @@
                     </div>
                     <img src="~/images/logo.jpg" alt="header-row__logo" class="header-row__logo-image">
 
-
-
-
                 </a>
+
+
+
 
 
 
@@ -70,6 +72,7 @@
                             <!--end of col-->
                         </div>
                     </form>
+                  
 
                 </div>
                 @if (!String.IsNullOrEmpty(Context.Session.GetString("Userid")))
@@ -130,9 +133,11 @@
         </main>
     </div>
 
+
     <footer class="footer_bottom">
         <div class="container_footer">
-            &copy; 2021 - CAProjectV2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Shopping Cart Application
+
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
