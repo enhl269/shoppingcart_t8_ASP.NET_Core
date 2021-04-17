@@ -19,16 +19,15 @@
 
 .product-quantity {
     float: left;
-    width: 10%;
-    padding-top:21px;   
+    width: 16%;
+    text-align:center;
 }
 
 .product-removal {
     float: left;
-    width: 9%;
+    width: 15%;
     padding-left: 80px;
-    text-align: center;
-    padding-top: 21px;
+   
 }
 
 .product-removal_button {
@@ -38,7 +37,6 @@
     float: left;
     width: 12%;
     text-align: right;
-    padding-top: 21px;
 }
 
 /* This is used as the traditional .clearfix class */
@@ -121,7 +119,7 @@ label {
     }
 
     .product .product-details {
-        margin: 5px 20px 5px 0;
+        margin: 5px 0 5px 0;
         line-height: 1.4em;
     }
 

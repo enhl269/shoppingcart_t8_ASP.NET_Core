@@ -59,7 +59,7 @@ body {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 a, a:hover {
@@ -103,8 +103,8 @@ a, a:hover {
 }
 
 .header-row__logo-image {
-    width: 80px;
-    height: 50px;
+    width: 303px;
+    height: 91px;
 }
 
 
@@ -378,7 +378,7 @@ a, a:hover {
     float: left;
 }
 .footer_bottom {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -476,4 +476,5 @@ ul li a.cart:hover {
 .search_container {
     margin-left: 13%;
     width: 700px;
+    margin-top: 20px;
 }
