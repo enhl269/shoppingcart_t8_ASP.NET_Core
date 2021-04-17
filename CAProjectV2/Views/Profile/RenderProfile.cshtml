@@ -4,69 +4,80 @@
     ViewData["Title"] = "My Profile";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/css/button.css" rel="stylesheet" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link href="~/css/product.css" rel="stylesheet" />
+<link href="~/css/main.css" rel="stylesheet" />
+<link href="~/css/addtoCart.css" rel="stylesheet" />
 
+<div class="container_addtoCart">
+    <h1>My Profile</h1>
 
-<h3>My Profile</h3>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
+            <form asp-action="RenderProfile" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <img class="img-responsive" src="@Url.Content("~/images/" + Model.UserImageUrl)" alt="">
+                <div class="form-group">
+                    <label asp-for="UserImageUrl" class="control-label"></label>
+                    <input asp-for="UserImageUrl" class="form-control" name="UserImageUrl" type="file" />
+                    <span asp-validation-for="UserImageUrl" class="text-danger"></span>
+                </div>
 
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <p>You can't change username yet</p>
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
 
-        <form asp-action="RenderProfile" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <img class="img-responsive" src="@Url.Content("~/images/" + Model.UserImageUrl)" alt="">
-            <div class="form-group">
-                <label asp-for="UserImageUrl" class="control-label"></label>
-                <input asp-for="UserImageUrl" class="form-control" name="UserImageUrl" type="file" />
-                <span asp-validation-for="UserImageUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserName" class="control-label"></label>
-                <input asp-for="UserName" class="form-control" />
-                <p>You can't change username yet</p>
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FirstName" class="control-label"></label>
-                <input asp-for="FirstName" class="form-control" />
-                <span asp-validation-for="FirstName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="LastName" class="control-label"></label>
-                <input asp-for="LastName" class="form-control" />
-                <span asp-validation-for="LastName" class="text-danger"></span>
-            </div>
-            <input type="hidden" asp-for="UserName" />
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PhoneNumber" class="control-label"></label>
-                <input asp-for="PhoneNumber" class="form-control" />
-                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NewPassword" class="control-label"></label>
-                <input asp-for="NewPassword" class="form-control" />
-                <span asp-validation-for="NewPassword" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="OldPassword" class="control-label"></label>
-                <input asp-for="OldPassword" class="form-control" required="required" />
-                <span asp-validation-for="OldPassword" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <input type="hidden" asp-for="UserName" />
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="NewPassword" class="control-label"></label>
+                    <input asp-for="NewPassword" class="form-control" />
+                    <span asp-validation-for="NewPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="OldPassword" class="control-label"></label>
+                    <input asp-for="OldPassword" class="form-control" required="required" />
+                    <span asp-validation-for="OldPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Submit" class="checkout" />
+                </div>
+
+            </form>
+        </div>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
