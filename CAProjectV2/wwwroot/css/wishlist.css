@@ -1,0 +1,357 @@
+﻿.container_addtoCart {
+    margin-top: 24px;
+}
+
+.product-image {
+    float: left;
+    width: 20%;
+}
+
+.product-details {
+    float: left;
+    width: 37%;
+}
+
+.product-price {
+    float: left;
+    width: 12%;
+}
+
+.product-quantity {
+    float: left;
+    width: 10%;
+    padding-top:21px;   
+}
+
+.product-removal {
+    float: left;
+    width: 9%;
+    padding-left: 80px;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.product-removal_button {
+}
+
+.product-line-price {
+    float: left;
+    width: 12%;
+    text-align: right;
+    padding-top: 21px;
+}
+
+/* This is used as the traditional .clearfix class */
+.group:before, .shopping-cart:before, .column-labels:before, .product:before, .totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    content: '';
+    display: table;
+}
+
+.group:after, .shopping-cart:after, .column-labels:after, .product:after, .totals-item:after {
+    clear: both;
+}
+
+.group, .shopping-cart, .column-labels, .product, .totals-item {
+    zoom: 1;
+    font-size: 14px;
+}
+
+    /* Apply clearfix in a few places */
+    /* Apply dollar signs */
+    .product .product-price:before, .product, .totals-value:before {
+        content: '$';
+    }
+
+/* Body/Header stuff */
+body {
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 100;
+    margin-left: 4%;
+}
+
+label {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.shopping-cart {
+    margin-top: -25px;
+}
+
+/* Column headers */
+.column-labels label {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.column-labels .product-image, .column-labels .product-details, .column-labels .product-removal {
+    text-indent: -9999px;
+}
+
+/* Product entries */
+.product {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+}
+
+    .product .product-image {
+        text-align: center;
+    }
+
+        .product .product-image img {
+            width: 100px;
+            border-radius: 10px;
+            box-shadow: rgb(0, 0, 0, .2) 0px 0px 25px 2px;
+        }
+
+    .product .product-details .product-title {
+        margin-right: 20px;
+        font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+    }
+
+    .product .product-details {
+        margin: 5px 20px 5px 0;
+        line-height: 1.4em;
+    }
+
+.product-description_long {
+    margin: 5px 0 5px 0;
+    line-height: 1.4em;
+    width: 300px;
+    color: GrayText;
+}
+
+.product .product-quantity input {
+    width: 25px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+.remove-product {
+    border: none;
+    background-color: transparent;
+    padding: 4px 8px;
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+    .remove-product:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+
+/* Totals section */
+.totals .totals-item {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    .totals .totals-item label {
+        float: left;
+        clear: both;
+        width: 79%;
+        text-align: right;
+    }
+
+    .totals .totals-item .totals-value {
+        float: right;
+        width: 21%;
+        text-align: right;
+    }
+
+.totals .totals-item-total {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+}
+
+.checkout {
+    width: max-content;
+    height: max-content;
+    margin-bottom: 82px;
+    float: right;
+    border: 0;
+    margin-top: 20px;
+    padding: 6px 25px;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+    outline: none;
+}
+
+    .checkout:hover {
+        background-color: #494;
+    }
+
+/* Make adjustments for tablet */
+@media screen and (max-width: 650px) {
+    .shopping-cart {
+        margin: 0;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+
+    .column-labels {
+        display: none;
+    }
+
+    .product-image {
+        float: right;
+        width: auto;
+    }
+
+        .product-image img {
+            margin: 0 0 10px 10px;
+        }
+
+    .product-details {
+        float: none;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .product-price {
+        clear: both;
+        width: 70px;
+    }
+
+    .product-quantity {
+        width: 100px;
+    }
+
+        .product-quantity input {
+            margin-left: 20px;
+        }
+
+        .product-quantity:before {
+            content: 'x';
+        }
+
+    .product-removal {
+        width: auto;
+    }
+
+    .product-line-price {
+        float: right;
+        width: 70px;
+    }
+}
+/* Make more adjustments for phone */
+@media screen and (max-width: 350px) {
+    .product-removal {
+        float: right;
+    }
+
+    .product-line-price {
+        float: right;
+        clear: left;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .product .product-line-price:before {
+        content: 'Item Total: $';
+    }
+
+    .totals .totals-item label {
+        width: 60%;
+    }
+
+    .totals .totals-item .totals-value {
+        width: 40%;
+    }
+}
+
+.button_checkout {
+    margin: 24px;
+}
+
+.delete_button {
+    color: red;
+    text-decoration: none;
+}
+
+.delete_ahref :hover {
+}
+
+.addqty {
+    width: 20px;
+    height: 25px;
+    float: right;
+    background: transparent;
+    color: black;
+    margin-left: 1px;
+}
+
+.minusqty {
+    width: 20px;
+    height: 25px;
+    background: transparent;
+    color: black;
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    height: 600px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    border-radius: 8px;
+}
+
+    .card .card-header {
+        background-color: #fff;
+        border-bottom: none;
+        padding: 24px;
+        border-bottom: 1px solid #f6f7fb;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px
+    }
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
+}
+
+.card .card-body {
+    padding: 30px;
+    background-color: transparent
+}
+
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #4466f2 !important;
+    border-color: #4466f2 !important
+}
+.wishbutton {
+    border: 0px;
+    background-color: transparent;
+    padding: 4px 8px;
+    color: red;
+    font-size: 14px;
+}
+    .wishbutton:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
