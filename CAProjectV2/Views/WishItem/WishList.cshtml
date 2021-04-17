@@ -37,34 +37,34 @@
 
         @foreach (var item in items)
         {
-    <div class="product">
-        <div class="product-image">
-            <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
-        </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
+                </div>
 
-        <div class="product-details">
-            <div class="product-title">@item.Product.ProductName</div>
-            <div class="product-description_long">@item.Product.Description</div>
-        </div>
+                <div class="product-details">
+                    <div class="product-title">@item.Product.ProductName</div>
+                    <div class="product-description_long">@item.Product.Description</div>
+                </div>
 
-        <div class="product-price">@item.Product.Price</div>
+                <div class="product-price">@item.Product.Price</div>
 
-        @*<div class="product-removal_button">
-            <button class="wishbutton" type="submit" value=@item.Product.Id>Remove</button>
-        </div>*@
+                @*<div class="product-removal_button">
+                        <button class="wishbutton" type="submit" value=@item.Product.Id>Remove</button>
+                    </div>*@
 
-        @*<form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
-        <div class="product-removal">
-            <input type="hidden" name="ProductId" value=@item.Product.Id />
-            <button type="submit">Buy now</button>
-        </div>
-        </form>*@
+                <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
+                    <div class="product-removal">
+                        <input type="hidden" name="ProductId" value=@item.Product.Id />
+                        <button type="submit">Buy now</button>
+                    </div>
+                    </form>
 
-        <div class="product-line-price">
-            <button class="wishbutton" type="submit" value=@item.Product.Id style="outline : none">Remove</button>
-        </div>
+                <div class="product-line-price">
+                    <button class="wishbutton" type="submit" value=@item.Product.Id style="outline : none">Remove</button>
+                </div>
 
-    </div>
+            </div>
         }
     </div>
 </div>

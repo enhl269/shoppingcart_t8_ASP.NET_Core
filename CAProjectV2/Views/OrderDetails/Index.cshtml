@@ -41,31 +41,40 @@
             @foreach (var value in UniqueList)
             {
                 @:<tr>
-                     @:<td>
-                       @Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ProductName).FirstOrDefault();
-                     @:</td>
+                    @:<td>
+                        @Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ProductName).FirstOrDefault();
+                    @:</td>
 
-                     @:<td>
-                       @Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Order.Date.ToString("dd MMMM yyyy")).FirstOrDefault();
-                     @:</td>
 
-                     @:<td>
-                       <img src="@Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ImageUrl).FirstOrDefault()" height="100" width="100" />
-                     @:</td>
+                    @:<td>
+                        @Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Order.Date.ToString("dd MMMM yyyy")).FirstOrDefault();
+                    @:</td>
 
-                     <td>
+
+                    @:<td>
+                        <img src="@Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ImageUrl).FirstOrDefault()" height="100" width="100" />
+                    @:</td>
+
+
+                    <td>
                         @Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Count()
-                     </td>
-                     
-                     @:<td>
-                       @:<select>
-                       @foreach (var x in Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date))
-                       {
-                        <option value="@Html.DisplayFor(modelItem=>x.ActivationCode)">@Html.DisplayFor(modelItem => x.ActivationCode)</option>}
-                       @:</select>
+                    </td>
+
+                    @:<td>
+                        @:<select>
+                            @foreach (var x in Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date))
+                            {
+                                <option value="@Html.DisplayFor(modelItem=>x.ActivationCode)">@Html.DisplayFor(modelItem => x.ActivationCode)</option>
+}
+                        @:</select>
+                    @:</td>
+
+
+                    @:<td>
+                        <a href="@Model.Where(x => x.ProductId == value.ProductId && x.Order.Date == value.Date).Select(x => x.Product.ImageUrl).FirstOrDefault()" download>Download</a>
                      @:</td>
-                @:</tr>
-             }
+ @:</tr>
+                            }
         </table>
 
     </div>
