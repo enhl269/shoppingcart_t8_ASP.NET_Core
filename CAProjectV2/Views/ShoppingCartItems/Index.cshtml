@@ -4,8 +4,8 @@
 <link href="~/css/button.css" rel="stylesheet" />
 <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 <link href="~/css/product.css" rel="stylesheet" />
-<link href="~/css/main.css" rel="stylesheet" />
-<link href="~/css/addtoCart.css" rel="stylesheet" />
+@*<link href="~/css/main.css" rel="stylesheet" />
+*@<link href="~/css/addtoCart.css" rel="stylesheet" />
 @*<link href="~/css/EmptyView.css" rel="stylesheet" />
 *@
 
@@ -80,7 +80,7 @@
 else
 {
     <div class="container_addtoCart">
-        <h1><b>Shopping Cart</b></h1>
+        <h1><b>View Cart</b></h1>
 
         <div class="shopping-cart">
 
@@ -139,11 +139,10 @@ else
 
 
             <div class="totals">
-                <div class="totals-item">
-                    <label>Subtotal</label>
-                    <div class="totals-value" id="cart-subtotal">@total</div>
+                
+                <div class="continueShopping">
+                    <a class="continueShopping" href="/Products/Index">Continue Shopping</a>
                 </div>
-
                 <div class="totals-item totals-item-total">
                     <label>Grand Total</label>
                     <div class="totals-value" id="cart-total">@total</div>

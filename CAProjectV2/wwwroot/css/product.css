@@ -14,6 +14,7 @@
     width: 250px;
     height: 426px;
     margin-bottom: 40px;
+    border-radius: 10px;
     box-shadow: rgb(0, 0, 0, .2) 0px 0px 25px 2px;
 }
 
@@ -78,10 +79,8 @@
 
 .product-list img {
     width: 250px;
-    height : 290px;
-    border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-
+    height: 270px;
+    border-radius: 10px;
 }
 
 .product-list .pro-img-box {
@@ -134,8 +133,8 @@
     top: 0px;
     position: absolute;
     -webkit-appearance: none;
-    background: -webkit-gradient(to right, #ffffff00 0%, #fceeb5 50%, #ee786e 100%);
-    background: linear-gradient(to right, #ffffff00 0%, #fceeb5 50%, #ee786e 100%);
+    background: -webkit-gradient(to right, #fc5959 0%, #fceeb5 50%, #ee786e 100%);
+    background: linear-gradient(to right, #fc5959 0%, #fceeb5 50%, #ee786e 100%);
     background-size: 500%;
     font: 1.5em Raleway, sans-serif;
     letter-spacing: 0.05em;
@@ -193,8 +192,9 @@
     color: #5A5A5A;
     display: inline-block;
     text-align: center;
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 22px;
+    margin-top: 33px;
+    width: 190px;
 }
 .pro-title_1 {
     color: #5A5A5A;
@@ -252,6 +252,7 @@
 }
 .product-description {
     color: GrayText;
+    font-size: 14px;
     width: 250px;
     padding-left: 12px;
     padding-right: 12px;
@@ -294,7 +295,7 @@
 .book-item__grip-related {
     text-align: center;
     width: 145px !important;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
     transition: all 0.25s ease 0s;
     box-shadow: rgb(0, 0, 0, .2) 0px 0px 25px 2px;
     margin-left: 20px;

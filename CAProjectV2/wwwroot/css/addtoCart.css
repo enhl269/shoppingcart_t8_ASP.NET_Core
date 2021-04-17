@@ -14,7 +14,7 @@
 
 .product-price {
     float: left;
-    width: 12%;
+    width: 120px;
 }
 
 .product-quantity {
@@ -93,6 +93,7 @@ label {
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #eee;
+    padding-left: 102px;
 }
 
 .column-labels .product-image, .column-labels .product-details, .column-labels .product-removal {
@@ -123,8 +124,8 @@ label {
         font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
     }
 
-    .product .product-details  {
-        margin: 5px 20px 5px 0;
+    .product .product-details {
+        margin: 0 83px 5px 0;
         line-height: 1.4em;
     }
 .product-description_long {
@@ -346,3 +347,18 @@ label {
     background-color: #4466f2 !important;
     border-color: #4466f2 !important
 }
+.container_continueShopping {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.continueShopping {
+    text-align: right;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+    .continueShopping :hover {
+        color: gray;
+    }

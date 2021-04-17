@@ -45,6 +45,7 @@ namespace CAProjectV2.Controllers
 
         public async Task<IActionResult> Index(string sortOrder, string searchString)
         {
+            ViewData["Is_Product"] = "isProductPage";
             if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
             {    //checking session is null or not which means checking user log in or out
 
@@ -62,6 +63,7 @@ namespace CAProjectV2.Controllers
             var product = from p in _context.Product
                           select p;
 
+            ViewData["Product"] = product.ToList();
             if (!String.IsNullOrEmpty(Convert.ToString(searchString)))
             {
                 product = product.Where(p => Convert.ToString(p.ProductName).Contains(Convert.ToString(searchString))

@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Libraries Gallery";
     string val = (string)ViewData["ProductID"];
+    List<Product> relatedProducts = (List<Product>) ViewData["Product"];
 
 }
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -49,7 +50,7 @@
 
                         </form>
                         <button type="submit" class="wishbutton" value=@item.Id style="outline : none">
-                            <i class="fa fa-heart"></i>
+                            <img src="~/images/whiteshopping.png" style="width:25px;height:25px;padding:1px" />
                         </button>
                     </div>
 
@@ -78,7 +79,7 @@
     </div>
     <div class="container">
         <div class="row books-grid-related">
-            @foreach (var item in Model.Take(5))
+            @foreach (var item in relatedProducts.Take(5))
             {
 
 
