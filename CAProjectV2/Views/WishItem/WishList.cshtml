@@ -1,10 +1,18 @@
 ﻿@model IEnumerable<CAProjectV2.Models.WishList>
 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+@*<link href="~/css/button.css" rel="stylesheet" />
+*@
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link href="~/css/main.css" rel="stylesheet" />
+
+
 @{
     ViewData["Title"] = "WishList";
     List<WishList> items = (List<WishList>)ViewData["Data"];
-    Layout = "~/Views/Shared/_Layout.cshtml";
-
+    <link href="~/css/wishlist.css" rel="stylesheet" />
+    @*    Layout = "~/Views/Shared/_Layout.cshtml";
+    *@
 }
 
 @section Scripts
@@ -12,48 +20,51 @@
     <script src="/js/wishitem.js"></script>
 
 }
-<h1>Index</h1>
 
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Image
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product.ProductName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product.Price)
-            </th>
-            <th>wishlist</th>
-        </tr>
-    </thead>
-    <tbody>
+@*========================================================================================================================*@
+<div class="container_addtoCart">
+    <h1><b>My WishList</b></h1>
+
+    <div class="shopping-cart">
+
+        <div class="column-labels">
+            <label class="product-image">Image</label>
+            <label class="product-details">Product</label>
+            <label class="product-price">Price</label>
+            <label class="product-line-price"></label>
+        </div>
+
         @foreach (var item in items)
         {
-            <tr>
-                <td>
+            <div class="product">
+                <div class="product-image">
                     <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
-                </td>
-                <td>
-                    <label class="idOfProduct">@Html.DisplayFor(modelItem => item.Product.ProductName)</label>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Product.Price)
-                </td>
-                <td>
-                    <button class="wishbutton" type="submit" value=@item.Product.Id>Delete from Wish List</button>
-                    <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
+                </div>
+
+                <div class="product-details">
+                    <div class="product-title">@item.Product.ProductName</div>
+                    <div class="product-description_long">@item.Product.Description</div>
+                </div>
+
+                <div class="product-price">@item.Product.Price</div>
+
+                @*<div class="product-removal_button">
+                        <button class="wishbutton" type="submit" value=@item.Product.Id>Remove</button>
+                    </div>*@
+
+                <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
+                    <div class="product-removal">
                         <input type="hidden" name="ProductId" value=@item.Product.Id />
-                        <button type="submit">Add to Cart</button>
+                        <button type="submit">Buy now</button>
+                    </div>
                     </form>
-                </td>
-            </tr>
+
+                <div class="product-line-price">
+                    <button class="wishbutton" type="submit" value=@item.Product.Id style="outline : none">Remove</button>
+                </div>
+
+            </div>
         }
-
-    </tbody>
-
-</table>
-
+    </div>
+</div>
