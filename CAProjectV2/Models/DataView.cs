@@ -9,8 +9,6 @@ namespace CAProjectV2.Models
     public class DataView
     {
 
-
-
         //public DataView(DateTime Date, string ProductId)
         //{
         //    this.Date = Date;

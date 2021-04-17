@@ -8,9 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CAProjectV2.Data;
 using CAProjectV2.Models;
 using CAProjectV2.Logic;
-using System.Globalization;
 using Microsoft.AspNetCore.Http;
-using System.Diagnostics;
 
 namespace CAProjectV2.Controllers
 {
@@ -27,10 +25,9 @@ namespace CAProjectV2.Controllers
         {
             if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
             {
-
                 string userId = HttpContext.Session.GetString("Userid");
                 var products = _context.ShoppingCartItem
-                    .Where(x => x.UserId == userId);
+                                .Where(x => x.UserId == userId);
 
                 List<OrderDetails> orderDetails = new List<OrderDetails>();
                 Order order = new Order();
@@ -58,18 +55,14 @@ namespace CAProjectV2.Controllers
                 await _context.SaveChangesAsync();
 
                 foreach (var product in products)
-                {
                     _context.Remove(product);
-                }
-                _context.SaveChanges();
 
+                _context.SaveChanges();
 
                 return RedirectToAction(nameof(Index));
             }
             else
-            {
                 return RedirectToAction("Index", "LogIn");
-            }
         }
 
 
@@ -81,6 +74,7 @@ namespace CAProjectV2.Controllers
 
                 var id = HttpContext.Session.GetString("Userid");
                 User user = _context.User.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
+
                 ProfileViewModel profile = new ProfileViewModel(user.UserImageUrl, user.FirstName, user.LastName, user.UserName, user.Email, user.PhoneNumber, "", "");
                 ViewData["profile"] = profile;
 
@@ -91,21 +85,27 @@ namespace CAProjectV2.Controllers
                 string userId = HttpContext.Session.GetString("Userid");
 
 
-                var websiteContext = _context.OrderDetails.Include(o => o.Order).Include(o => o.Product).Where(x => x.Order.UserId == userId).
-                    OrderBy(x => x.Product.ProductName).ThenBy(x => x.Order.Date);
+                var websiteContext = _context.OrderDetails.Include(o => o.Order)
+                                                          .Include(o => o.Product)
+                                                          .Where(x => x.Order.UserId == userId)
+                                                          .OrderBy(x => x.Product.ProductName)
+                                                          .ThenBy(x => x.Order.Date);
 
                 websiteContext = websiteContext.OrderByDescending(x => x.Order.Date);
 
-                IQueryable<DataView> lookup = websiteContext.Select(x => new DataView { Date = x.Order.Date, ProductId = x.ProductId }).OrderBy(x => x.Date).Distinct();
-                lookup = lookup.OrderByDescending(x => x.Date);
+                IQueryable<DataView> lookup = websiteContext
+                                              .Select(x => new DataView { Date = x.Order.Date, ProductId = x.ProductId })
+                                              .OrderBy(x => x.Date)
+                                              .Distinct()
+                                              .OrderByDescending(x => x.Date);
 
                 List<DataView> UniqueList = new List<DataView>();
                 foreach (var item in lookup)
                 {
                     DataView dataViews = new DataView { Date = item.Date, ProductId = item.ProductId };
                     UniqueList.Add(dataViews);
-
                 }
+
                 ViewData["UniqueList"] = UniqueList;
                 string guestLogin = HttpContext.Session.GetString("isLogin");
                 ViewData["isLogin"] = guestLogin;
@@ -123,21 +123,16 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var orderDetails = await _context.OrderDetails
-                .Include(o => o.Order)
-                .Include(o => o.Product)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                                            .Include(o => o.Order)
+                                            .Include(o => o.Product)
+                                            .FirstOrDefaultAsync(m => m.Id == id);
             if (orderDetails == null)
-            {
                 return NotFound();
-            }
 
             return View(orderDetails);
-
         }
 
         // GET: OrderDetails/Create
@@ -170,15 +165,13 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var orderDetails = await _context.OrderDetails.FindAsync(id);
+
             if (orderDetails == null)
-            {
                 return NotFound();
-            }
+
             ViewData["OrderId"] = new SelectList(_context.Orders, "Id", "Id", orderDetails.OrderId);
             ViewData["ProductId"] = new SelectList(_context.Product, "Id", "Id", orderDetails.ProductId);
             return View(orderDetails);
@@ -192,9 +185,7 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Edit(string id, [Bind("Id,ActivationCode,ProductId,Quantity,IndivProductPrice,OrderId")] OrderDetails orderDetails)
         {
             if (id != orderDetails.Id)
-            {
                 return NotFound();
-            }
 
             if (ModelState.IsValid)
             {
@@ -206,13 +197,9 @@ namespace CAProjectV2.Controllers
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!OrderDetailsExists(orderDetails.Id))
-                    {
                         return NotFound();
-                    }
                     else
-                    {
                         throw;
-                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -230,13 +217,11 @@ namespace CAProjectV2.Controllers
             }
 
             var orderDetails = await _context.OrderDetails
-                .Include(o => o.Order)
-                .Include(o => o.Product)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                                            .Include(o => o.Order)
+                                            .Include(o => o.Product)
+                                            .FirstOrDefaultAsync(m => m.Id == id);
             if (orderDetails == null)
-            {
                 return NotFound();
-            }
 
             return View(orderDetails);
         }

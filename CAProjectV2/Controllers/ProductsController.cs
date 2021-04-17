@@ -49,7 +49,8 @@ namespace CAProjectV2.Controllers
             {    //checking session is null or not which means checking user log in or out
 
                 var id = HttpContext.Session.GetString("Userid");
-                User user = _context.User.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
+                User user = _context.User.AsNoTracking()
+                                        .Where(x => x.Id == id).FirstOrDefault();
                 ProfileViewModel profile = new ProfileViewModel(user.UserImageUrl, user.FirstName, user.LastName, user.UserName, user.Email, user.PhoneNumber, "", "");
                 ViewData["profile"] = profile;
 
@@ -86,16 +87,13 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.Id == id);
+                                        .FirstOrDefaultAsync(m => m.Id == id);
+            
             if (product == null)
-            {
                 return NotFound();
-            }
 
             return View(product);
         }
@@ -126,15 +124,12 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var product = await _context.Product.FindAsync(id);
             if (product == null)
-            {
                 return NotFound();
-            }
+
             return View(product);
         }
 
@@ -146,9 +141,7 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Edit(string id, [Bind("Id,ProductName,Description,Price,ImageUrl,tag")] Product product)
         {
             if (id != product.Id)
-            {
                 return NotFound();
-            }
 
             if (ModelState.IsValid)
             {
@@ -160,13 +153,9 @@ namespace CAProjectV2.Controllers
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!ProductExists(product.Id))
-                    {
                         return NotFound();
-                    }
                     else
-                    {
                         throw;
-                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -177,16 +166,13 @@ namespace CAProjectV2.Controllers
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
+
 
             var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.Id == id);
+                                        .FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
-            {
                 return NotFound();
-            }
 
             return View(product);
         }
