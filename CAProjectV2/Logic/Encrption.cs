@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Text;
+using System.Security.Cryptography;
 
 namespace CAProjectV2.Logic
 {
@@ -10,11 +8,10 @@ namespace CAProjectV2.Logic
 
         public static string Encrypt(string input) {
 
-            byte[] data = System.Text.Encoding.ASCII.GetBytes(input);
-            data = new System.Security.Cryptography.SHA256Managed().ComputeHash(data);
-            String hash = System.Text.Encoding.ASCII.GetString(data);
+            byte[] data = Encoding.ASCII.GetBytes(input);
+            data = new SHA256Managed().ComputeHash(data);
 
-            return hash;
+            return Encoding.ASCII.GetString(data);
         }
     }
 }
