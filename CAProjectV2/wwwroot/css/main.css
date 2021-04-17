@@ -55,6 +55,7 @@ body {
     font-family: Hack, monospace;
     max-width: 100%;
     overflow-x: hidden;
+    background-color: white;
 }
 
 p {
@@ -210,7 +211,7 @@ a, a:hover {
 
     .header-row__menu-item a {
         color: grey;
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         padding: 20px 25px;
         display: inline-block;
     }
@@ -440,3 +441,38 @@ a, a:hover {
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
     }
+ul li a.cart:hover {
+    text-decoration: none;
+    color: #ee786e;
+}
+ .menu_item:hover {
+    text-decoration: none;
+    color: #ee786e;
+}
+
+.cart_count {
+    font-size: 11px;
+    position: absolute;
+    top: 12px;
+    padding: 1px;
+    right: 14px;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    background-color: #ee786e;
+    border-radius: 50%;
+}
+.fa,
+.fas {
+    font-family: 'FontAwesome';
+}
+.logo {
+    max-height: 70px;
+}
+.fa-2x {
+    font-size: 20px;
+}
+.search_container {
+    margin-left: 15%;
+    width: 700px;
+}

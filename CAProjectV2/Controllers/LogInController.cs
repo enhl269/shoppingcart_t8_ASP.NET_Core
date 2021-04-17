@@ -58,7 +58,7 @@ namespace CAProjectV2.Controllers
 
                 }
                
-                return RedirectToAction("Index", "Home");   // we don't have home page yet
+                return RedirectToAction("Index", "Products");   // we don't have home page yet
          
 
             }

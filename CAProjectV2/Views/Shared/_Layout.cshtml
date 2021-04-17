@@ -12,7 +12,7 @@
 
   
 
-    <title>@ViewData["Title"] - Shopping Cart Application</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/site.css" />
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -34,7 +34,7 @@
 
         <div class="header-row">
             <div class="header-row__top row clearfix">
-                <a class="header-row__logo row mr-auto" asp-area="" asp-controller="Home" asp-action="Index">
+                <a class="header-row__logo row" style="margin-left : 20px;width:300px" asp-area="" asp-controller="Home" asp-action="Index">
                     <div class="header-row__logo_content">
                         <div class="header-row__logo-text">Team-8 Book Store</div>
                         <div class="header-row__logo_desc">Online learning Resource</div>
@@ -48,37 +48,38 @@
 
 
 
-
-                <div class="container">
+            
+                <div class="search_container">
 
                     <form asp-area="" asp-controller="Products" asp-action="Index" method="post">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-10 col-lg-8">
+                        @*<div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+                        *@
+                        <div class="card-body row no-gutters align-items-center">
 
-                                <div class="card-body row no-gutters align-items-center">
-
-                                    <div class="col">
-                                        <input class="form-control form-control-lg form-control-borderless" height="30" type="text" name="SearchString" placeholder="Search topics or keywords" value="@ViewData["CurrentFilter"]">
-                                    </div>
-                                    <!--end of col-->
-                                    <div class="col-auto">
-                                        <button type="submit" class="search_button" style="outline:none">Search</button>
-
-                                    </div>
-                                    <!--end of col-->
-                                </div>
+                            <div class="col">
+                                <input class="form-control form-control-lg form-control-borderless" height="30" type="text" name="SearchString" placeholder="Enter your search here ..." value="@ViewData["CurrentFilter"]">
+                            </div>
+                            <!--end of col-->
+                            <div class="col-auto">
+                                <button type="submit" class="search_button" style="outline:none">Search</button>
 
                             </div>
                             <!--end of col-->
-                        </div>
+                                                     </div>
+                      
+
+                            <!--/div>-->
+                            <!--end of col-->
+                            <!--</div>-->
                     </form>
-                  
+
 
                 </div>
                 @if (!String.IsNullOrEmpty(Context.Session.GetString("Userid")))
                 {
 
-                    <a asp-area="" asp-controller="Profile" asp-action="RenderProfile" class="align-self-center ml-auto">
+                    <a asp-area="" asp-controller="Profile" asp-action="RenderProfile" class="align-self-center" style="margin-right:30px">
 
                         <div class="row">
 
@@ -90,36 +91,33 @@
                         </div>
                     </a>
                 }
-                else
-                {   <div class="align-self-center ml-auto">
-    <a href="/Login/Index" class="default">Login</a>
-</div>
-                }
+               
             </div>
             <div class="row-header__main">
                 <ul class="header-row__menu align-self-center col-12">
-                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a></li>
-                    <li class="header-row__menu-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="ShoppingCartItems" asp-action="Index">
-                            My Carts
-                            (<span style="color : palevioletred" id="shoppingcartcount"></span>)
-                        </a>
-                    </li>
-                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="WishItem" asp-action="WishList">My Wishlist</a></li>
+                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><span class="menu_item">Home</span></a></li>
+                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index"><span class="menu_item">Products</span></a></li>
+
+                    <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="WishItem" asp-action="WishList"><span class="menu_item">My Wishlist</span></a></li>
                     @if (!String.IsNullOrEmpty(Context.Session.GetString("Userid")))
                     {
-                        <li class="header-row__menu-item"> <a class="nav-link text-dark" asp-area="" asp-controller="OrderDetails" asp-action="Index">My Purchase History</a></li>
-                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="LogOut" asp-action="Index">Logout</a></li>
+                        <li class="header-row__menu-item"> <a class="nav-link text-dark" asp-area="" asp-controller="OrderDetails" asp-action="Index"><span class="menu_item">My Purchase History</span></a></li>
+                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="LogOut" asp-action="Index"><span class="menu_item">Logout</span></a></li>
 
                     }
                     else
                     {
-                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="LogIn" asp-action="Index">Login</a></li>
-                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Register" asp-action="Index">Register</a></li>
+                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="LogIn" asp-action="Index"><span class="menu_item">Login</span></a></li>
+                        <li class="header-row__menu-item"><a class="nav-link text-dark" asp-area="" asp-controller="Register" asp-action="Index"><span class="menu_item">Register</span></a></li>
 
 
                     }
+                    <li class="header-row__menu-item">
+                        <a href="/ShoppingCartItems/Index" class="cart position-relative d-inline-flex" aria-label="View your shopping cart">
+                            <i class="fas fa fa-shopping-cart fa-2x" style="font-size:25px"></i>
+                            <span id="shoppingcartcount" class="cart_count"></span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -144,6 +142,9 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/wishitem.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/main.css" rel="stylesheet" />
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>
