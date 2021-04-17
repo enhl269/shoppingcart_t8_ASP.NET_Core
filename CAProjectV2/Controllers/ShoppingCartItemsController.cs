@@ -28,22 +28,19 @@ namespace CAProjectV2.Controllers
             items.ShoppingCartId = IdGenerator.ID();
             items.ShoppingCartItemEachProductId = items.Id.Clone().ToString() + items.ShoppingCartId.Clone().ToString();
             items.Quantity = 1;
+
             if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
-            {
                 items.UserId = HttpContext.Session.GetString("Userid"); 
-            }
             else
-            {
                 items.UserId = Request.Cookies["GuestLogin"];
-            }
 
             await _context.AddAsync(items);
             await _context.SaveChangesAsync();
 
             var _exists = _context.WishList
-                .Where(x => x.UserId == items.UserId
-                && x.ProductId == items.ProductId)
-                .FirstOrDefault();
+                                    .Where(x => x.UserId == items.UserId
+                                    && x.ProductId == items.ProductId)
+                                    .FirstOrDefault();
 
             if (_exists != null)
                 _context.WishList.Remove(_exists);
@@ -60,13 +57,9 @@ namespace CAProjectV2.Controllers
             items.ShoppingCartItemEachProductId = items.Id.Clone().ToString() + items.ShoppingCartId.Clone().ToString();
             items.Quantity = 1;
             if (!String.IsNullOrEmpty(HttpContext.Session.GetString("isLogin")))
-            {
                 items.UserId = HttpContext.Session.GetString("Userid");
-            }
             else
-            {
                 items.UserId = Request.Cookies["GuestLogin"];
-            }
 
             await _context.AddAsync(items);
             await _context.SaveChangesAsync();
@@ -91,9 +84,9 @@ namespace CAProjectV2.Controllers
 
             //list of items in the shopping cart database
             var products = _context.ShoppingCartItem
-                .Where(x => x.UserId == updatedQty.UserId 
-                    && x.ProductId == updatedQty.ProductId)
-                .ToList();
+                            .Where(x => x.UserId == updatedQty.UserId 
+                                && x.ProductId == updatedQty.ProductId)
+                            .ToList();
 
             //find original qty
             var websiteContext = _context.ShoppingCartItem.Where(x => x.UserId == updatedQty.UserId).Count(x =>
