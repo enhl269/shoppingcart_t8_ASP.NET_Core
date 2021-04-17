@@ -27,7 +27,9 @@ namespace CAProjectV2.Controllers
         {
             
             var password = Encrption.Encrypt(logInUser.Password);
-            User result =  _context.User.Where(x => x.UserName == logInUser.UserName && x.Password == password).FirstOrDefault();
+            User result =  _context.User.Where(x => x.UserName == logInUser.UserName 
+                                               && x.Password == password)
+                                        .FirstOrDefault();
             if (result != null)
             {
                 HttpContext.Session.SetString("Userid", result.Id);
@@ -35,24 +37,15 @@ namespace CAProjectV2.Controllers
            
                 string guestLogin = Request.Cookies["GuestLogin"];
                 
-                
-               
-
-                var items = _context.ShoppingCartItem.Where(x => x.UserId == guestLogin);
+                var items = _context.ShoppingCartItem.Where(x => x.UserId == guestLogin)
+                                                     .FirstOrDefault();
               
                 if (items != null)
                 {
                     string userLogin = HttpContext.Session.GetString("Userid");
-                    foreach (var item in items)
-                    {
-                        item.UserId = userLogin;
-                           
-                    }
-                    
-                    
+                    items.UserId = userLogin;
+
                     _context.SaveChanges();
-
-
                 }
                
                 return RedirectToAction("Index", "Products");   // we don't have home page yet
@@ -60,7 +53,7 @@ namespace CAProjectV2.Controllers
 
             }
 
-                return Redirect("Index");  // UI : need to create error message/page that user name or pwd is incorrect
+            return Redirect("Index");  // UI : need to create error message/page that user name or pwd is incorrect
             
             //nothing
             
