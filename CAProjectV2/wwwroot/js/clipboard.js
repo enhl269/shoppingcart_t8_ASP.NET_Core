@@ -13,6 +13,6 @@ function toCopy(event) {
     let selected = event.currentTarget;
     let code = selected.options[selected.selectedIndex].innerText;
     navigator.clipboard.writeText(code)
-    alert("You have copied the activation code :" + code);
+    alert("You have copied the activation code :\n\n" + code +"\n\nEnjoy using our software :)");
 
 }
