@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using System;
 
 namespace CAProjectV2
 {
@@ -27,11 +27,11 @@ namespace CAProjectV2
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddSession(
-            //    options =>
-            //{
-            //    options.IdleTimeout = TimeSpan.FromMinutes(60);
-            //    options.Cookie.HttpOnly = true;
-            //}
+                options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(60);
+                options.Cookie.HttpOnly = true;
+            }
             );
 
 
