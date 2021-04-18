@@ -52,7 +52,8 @@ namespace CAProjectV2.Controllers
                 
             }
             else {
-                return Redirect("Error");    // UI : need to show error message/page that user alr exit
+                TempData["userDuplicate"] = true;
+                return Redirect("Index");    // UI : need to show error message/page that user alr exit
             }
             return RedirectToAction("Index", "LogIn");
         }
