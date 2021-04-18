@@ -36,16 +36,21 @@ namespace CAProjectV2.Controllers
                 HttpContext.Session.SetString("isLogin", result.UserName);
            
                 string guestLogin = Request.Cookies["GuestLogin"];
+
+                var items = _context.ShoppingCartItem.Where(x => x.UserId == guestLogin);
+                                                    
                 
-                var items = _context.ShoppingCartItem.Where(x => x.UserId == guestLogin)
-                                                     .FirstOrDefault();
-              
                 if (items != null)
                 {
+
                     string userLogin = HttpContext.Session.GetString("Userid");
-                    items.UserId = userLogin;
+                    foreach (var item in items)
+                    {
+                        item.UserId = userLogin;
+                    }
 
                     _context.SaveChanges();
+
                 }
                
                 return RedirectToAction("Index", "Products");  
