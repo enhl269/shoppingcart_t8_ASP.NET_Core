@@ -2,7 +2,8 @@
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
 @*<link href="~/css/button.css" rel="stylesheet" />
-*@<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+*@
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 <link href="~/css/main.css" rel="stylesheet" />
 
 
@@ -22,50 +23,77 @@
 
 
 @*========================================================================================================================*@
-<div class="container_addtoCart">
+
+
+
+
+@if (items.Count == 0)
+{
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body cart">
+                        <div class="col-sm-12 empty-cart-cls text-center">
+                            <img src="https://www.digitalwelkin.com/images/emptywishlist.jpg" width="536" height="316" class="img-fluid mb-4 mr-3">
+                            <h1><strong>Your Wish List is Empty</strong></h1>
+                            <h3>Add something to make me happy :)</h3> <a href="/Products/Index" class="btn btn-primary cart-btn-transform m-3" data-abc="true" style="font-size:20px ;padding-left : 10px;padding-right:10px;padding-top:5px;padding-bottom:5px">continue shopping</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
     <h1><b>My WishList</b></h1>
+    <div class="container_addtoCart">
+        <div class="shopping-cart">
 
-    <div class="shopping-cart">
+            <div class="column-labels">
+                <label class="product-image">Image</label>
+                <label class="product-details">Product</label>
+                <label class="product-price">Price</label>
+                <label class="product-quantity" style=" padding-top: 21px;"> </label>
+                <label class="product-removal"> WPA</label>
+            </div>
 
-        <div class="column-labels">
-            <label class="product-image">Image</label>
-            <label class="product-details">Product</label>
-            <label class="product-price">Price</label>
-            <label class="product-quantity" style=" padding-top: 21px;"> </label>
-            <label class="product-removal"> WPA</label>
+            @foreach (var item in items)
+            {
+                <div class="product">
+                    <div class="product-image">
+                        <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
+                    </div>
+
+                    <div class="product-details">
+                        <div class="product-title">@item.Product.ProductName</div>
+                        <div class="product-description_long">@item.Product.Description</div>
+                    </div>
+
+                    <div class="product-price">@item.Product.Price</div>
+
+                    @*<div class="product-removal_button">
+                            <button class="wishbutton" type="submit" value=@item.Product.Id>Remove</button>
+                        </div>*@
+                    <div class="product-quantity">
+                        <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
+
+                            <input type="hidden" name="ProductId" value=@item.Product.Id />
+                            <button type="submit" class="btn btn-outline-secondary" style=" width: 100px; height: 30px; font-size: 13px; text-align: center;">Add to Cart</button>
+                        </form>
+                    </div>
+
+
+                    <div class="product-removal">
+                        <button class="wishbutton" type="submit" value=@item.Product.Id style="outline : none">Remove</button>
+                    </div>
+
+                </div>
+            }
         </div>
-
-        @foreach (var item in items)
-        {
-    <div class="product">
-        <div class="product-image">
-            <img src="@Html.DisplayFor(modelItem => item.Product.ImageUrl)" height="100" width="100" />
-        </div>
-
-        <div class="product-details">
-            <div class="product-title">@item.Product.ProductName</div>
-            <div class="product-description_long">@item.Product.Description</div>
-        </div>
-
-        <div class="product-price">@item.Product.Price</div>
-
-        @*<div class="product-removal_button">
-            <button class="wishbutton" type="submit" value=@item.Product.Id>Remove</button>
-        </div>*@
-        <div class="product-quantity">
-            <form asp-area="" asp-controller="ShoppingCartItems" asp-action="Addinginwishlist" method="post">
-
-                <input type="hidden" name="ProductId" value=@item.Product.Id />
-                <button type="submit" class="btn btn-outline-secondary" style=" width: 100px; height: 30px; font-size: 13px; text-align: center;">Add to Cart</button>
-            </form>
-        </div>
-        
-
-        <div class="product-removal">
-            <button class="wishbutton" type="submit" value=@item.Product.Id style="outline : none">Remove</button>
-        </div>
-
     </div>
-        }
-    </div>
-</div>
+}

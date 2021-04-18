@@ -69,6 +69,7 @@ namespace CAProjectV2.Controllers
             {
                 product = product.Where(p => Convert.ToString(p.ProductName).Contains(Convert.ToString(searchString))
                                        || Convert.ToString(p.Description).Contains(Convert.ToString(searchString)));
+                ViewData["searchProduct"] = product.ToList();
             }
             switch (sortOrder)
             {
@@ -79,6 +80,7 @@ namespace CAProjectV2.Controllers
                     product = product.OrderBy(p => p.ProductName);
                     break;
             }
+            
             string guestLogin = HttpContext.Session.GetString("isLogin");
             ViewData["isLogin"] = guestLogin;
 

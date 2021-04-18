@@ -3,8 +3,9 @@
 @{
     ViewData["Title"] = "Libraries Gallery";
     string val = (string)ViewData["ProductID"];
-    List<Product> relatedProducts = (List<Product>) ViewData["Product"];
-
+    List<Product> relatedProducts = (List<Product>)ViewData["Product"];
+    List<Product> searchProducts = (List<Product>)ViewData["searchProduct"];
+    int count = @Model.Count();
 }
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
 @**@
@@ -20,15 +21,26 @@
 }
 
 
+@if (count == 0)
+{ <div class="height--1-1 l-flex--col l-flexer soft-quad--sides soft-double--top" style="text-align: center; margin-top:11%">
+    <div class="height--1-1 flex flex--column flex-justified--center text--center soft-quad push-quad--top">
+        <img src="https://app.optimizely.com/static/img/p13n/page-list-empty-state.svg" class="anchor--middle push--ends" width="450">
+        <h1 class="push-half--bottom" style="font-size:15px">We couldn't Find Anything :(</h1>
+        <label class="lego-label" style="font-size: 16px"><a href="/Products/Index" style="font-size:20px;color: #fc8977;text-decoration: underline">Redirect to Products</a> to browse more products.</label>
+    </div>
+</div>
+}else
+            {
+
+            
 
 <div id="wrapper">
 
     <div class="row product-list">
-
-
-
         @foreach (var item in Model)
         {
+
+
             <div class="col-md-4">
                 <section class="panel">
                     <div class="pro-img-box">
@@ -68,6 +80,11 @@
 
         }
     </div>
+    
+
+
+
+
 
     <div class="container">
         <div class="row-header">
@@ -97,3 +114,4 @@
 
 
 
+}
