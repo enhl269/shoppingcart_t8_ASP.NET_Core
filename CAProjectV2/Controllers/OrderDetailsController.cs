@@ -62,7 +62,10 @@ namespace CAProjectV2.Controllers
                 return RedirectToAction(nameof(Index));
             }
             else
+            {
+                TempData["loginFirst"] = true;
                 return RedirectToAction("Index", "LogIn");
+            }
         }
 
 
