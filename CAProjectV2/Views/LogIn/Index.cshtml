@@ -6,6 +6,7 @@
 
 }
 
+
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
 <link href="~/css/button.css" rel="stylesheet" />
 <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -38,7 +39,10 @@
                     <div class="etc-login-form">
                         <p>new user? <a href="/Register">create new account</a></p>
                     </div>
-
+                    @if (@Convert.ToBoolean(TempData["loginStatus"])){
+                        <p style="color:crimson">Oops! Seems like either Username or Password was keyed in wrongly</p>
+                        <p style="color:crimson">Please try again :)</p>
+                    }
                     <div class="form-group">
                         <input type="submit" value="Login" class="checkout" />
                     </div>

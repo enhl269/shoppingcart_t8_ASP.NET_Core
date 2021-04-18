@@ -52,7 +52,8 @@ namespace CAProjectV2.Controllers
          
 
             }
-
+            
+            TempData["loginStatus"] = true;
             return Redirect("Index");  
             
 
