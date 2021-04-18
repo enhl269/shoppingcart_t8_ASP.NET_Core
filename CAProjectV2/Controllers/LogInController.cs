@@ -48,14 +48,12 @@ namespace CAProjectV2.Controllers
                     _context.SaveChanges();
                 }
                
-                return RedirectToAction("Index", "Products");   // we don't have home page yet
+                return RedirectToAction("Index", "Products");  
          
 
             }
 
-            return Redirect("Index");  // UI : need to create error message/page that user name or pwd is incorrect
-            
-            //nothing
+            return Redirect("Index");  
             
 
         }
